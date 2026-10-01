@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Apply Online | TravelNova</title>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="navbar">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+
+            <span class="logo-icon">
+                <i class="fa-solid fa-plane"></i>
+            </span>
+
+            Travel<span>Nova</span>
+
+        </a>
+
+
+        <button class="menu-toggle" id="menuToggle">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+
+        <nav id="mainNav">
+
+            <a href="index.html">Home</a>
+
+            <a href="passport.html">Passport</a>
+
+            <a href="national-id.html">National ID</a>
+
+            <a href="services.html">Other Services</a>
+
+            <a href="apply.html" class="active nav-button">
+                Apply Now
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+<section class="page-header">
+
+    <div class="container">
+
+        <span>ONLINE APPLICATION</span>
+
+        <h1>Send Your Details</h1>
+
+        <p>
+            Complete the form below and tell us what
+            assistance you need.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="application-section">
+
+    <div class="container application-layout">
+
+
+        <!-- INFORMATION -->
+
+        <div class="application-info">
+
+            <h2>
+                Before You Submit
+            </h2>
+
+            <p>
+                Please provide accurate information. If you
+                are submitting a document, make sure the
+                uploaded file is clear and readable.
+            </p>
+
+
+            <div class="info-list">
+
+                <div>
+
+                    <i class="fa-solid fa-check"></i>
+
+                    <span>
+                        Use your correct names.
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <i class="fa-solid fa-check"></i>
+
+                    <span>
+                        Provide an active phone number.
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <i class="fa-solid fa-check"></i>
+
+                    <span>
+                        Upload a clear document.
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <i class="fa-solid fa-check"></i>
+
+                    <span>
+                        Tell us exactly what you need.
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="security-note">
+
+                <i class="fa-solid fa-lock"></i>
+
+                <div>
+
+                    <strong>Privacy</strong>
+
+                    <p>
+                        Do not upload passwords, PINs or
+                        unnecessary sensitive information.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- FORM -->
+
+        <div class="application-form-box">
+
+            <form id="applicationForm">
+
+
+                <h2>
+                    Application Details
+                </h2>
+
+
+                <!-- SERVICE -->
+
+                <div class="form-group">
+
+                    <label for="service">
+                        Service Required *
+                    </label>
+
+                    <select id="service"
+                            name="service"
+                            required>
+
+                        <option value="">
+                            Select a service
+                        </option>
+
+                        <option value="Passport Processing">
+                            Passport Processing
+                        </option>
+
+                        <option value="National ID Processing">
+                            National ID Processing
+                        </option>
+
+                        <option value="Visa Processing">
+                            Visa Processing
+                        </option>
+
+                        <option value="Airline Ticket">
+                            Airline Ticket
+                        </option>
+
+                        <option value="Hotel Booking">
+                            Hotel Booking
+                        </option>
+
+                        <option value="Other">
+                            Other
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- NAME -->
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="fullName">
+                            Full Name *
+                        </label>
+
+                        <input type="text"
+                               id="fullName"
+                               name="fullName"
+                               placeholder="Your full name"
+                               required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone Number *
+                        </label>
+
+                        <input type="tel"
+                               id="phone"
+                               name="phone"
+                               placeholder="07XXXXXXXX"
+                               required>
+
+                    </div>
+
+                </div>
+
+
+                <!-- EMAIL -->
+
+                <div class="form-group">
+
+                    <label for="email">
+                        Email Address
+                    </label>
+
+                    <input type="email"
+                           id="email"
+                           name="email"
+                           placeholder="example@email.com">
+
+                </div>
+
+
+                <!-- DOB / NATIONALITY -->
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label for="dob">
+                            Date of Birth
+                        </label>
+
+                        <input type="date"
+                               id="dob"
+                               name="dob">
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="nationality">
+                            Nationality
+                        </label>
+
+                        <input type="text"
+                               id="nationality"
+                               name="nationality"
+                               placeholder="Ugandan">
+
+                    </div>
+
+                </div>
+
+
+                <!-- ADDRESS -->
+
+                <div class="form-group">
+
+                    <label for="address">
+                        Address / Location
+                    </label>
+
+                    <input type="text"
+                           id="address"
+                           name="address"
+                           placeholder="Town / District">
+
+                </div>
+
+
+                <!-- DOCUMENT -->
+
+                <div class="document-instruction">
+
+    <div class="document-icon">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </div>
+
+    <div>
+
+        <h3>Supporting Document</h3>
+
+        <p>
+            After submitting your details, WhatsApp will
+            open automatically.
+        </p>
+
+        <p>
+            Please attach your passport, National ID or
+            other relevant supporting document directly
+            in the WhatsApp chat before sending.
+        </p>
+
+    </div>
+
+</div>
+                <!-- MESSAGE -->
+
+                <div class="form-group">
+
+                    <label for="message">
+                        Additional Information
+                    </label>
+
+                    <textarea id="message"
+                              name="message"
+                              rows="5"
+                              placeholder="Tell us anything else we should know..."></textarea>
+
+                </div>
+
+
+                <!-- CONSENT -->
+
+                <div class="checkbox-group">
+
+                    <input type="checkbox"
+                           id="consent"
+                           required>
+
+                    <label for="consent">
+
+                        I confirm that the information I have
+                        provided is accurate.
+
+                    </label>
+
+                </div>
+
+
+                <button type="submit"
+                        class="btn primary-btn full-btn">
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                    Submit Application
+
+                </button>
+
+
+                <div id="formMessage"
+                     class="form-message">
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div>
+
+            <a href="index.html"
+               class="logo footer-logo">
+
+                Travel<span>Nova</span>
+
+            </a>
+
+            <p>
+                Travel document and travel service assistance.
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h3>Quick Links</h3>
+
+            <a href="passport.html">Passport</a>
+
+            <a href="national-id.html">National ID</a>
+
+            <a href="services.html">Other Services</a>
+
+        </div>
+
+
+        <div>
+
+            <h3>Contact</h3>
+
+            <p>+256 761 663 966</p>
+
+            <p>lamofgod95@gmail.com</p>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 TravelNova. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+<a href="https://wa.me/256761663966"
+   class="whatsapp"
+   target="_blank">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
